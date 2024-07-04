@@ -89,7 +89,7 @@ Write A Custom PowerShell Script To Get Attackers  The Geo Data :  <br/>
 <img src="https://imgur.com/tTrsSh1.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Obtain AN API KEY To get Geolocation Data:  <br/>
+Obtain AN API Key To Get Geolocation Data:  <br/>
 <img src="https://imgur.com/ZlKSanr.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />

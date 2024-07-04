@@ -23,126 +23,115 @@ In this Lab, I setup Azure Sentinel (SIEM) and connected it to a live virtual ma
 
 <p align="center">
 Sign UP For Azure Subscription: <br/>
-<img src="https://imgur.com/cWjCLSA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/cWjCLSA.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Download windows 10 ISO: <br/>
-<img src="https://imgur.com/eVutJHD.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Configure Virtual Machine: <br/>
+<img src="https://imgur.com/UK39VJM.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Download Server 2019 ISO: <br/>
+Configure An Inbound Rule For The Firewall To Allow Everything Into the VM: <br/>
+<img src="https://imgur.com/uTBdXez.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Create A Virtual Machine For the Domain Controller: <br/>
-<img src="https://imgur.com/loli7ho.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+ <img src="https://imgur.com/0IJNoIs.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Set Up IP Addressing:  <br/>
-<img src="https://imgur.com/SGKIgXT.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+Create A Log Analytics Workspace: <br/>
+<img src="https://imgur.com/tVdd9K2.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Install Actve Directory and Domain Services On The Domain Contoller:  <br/>
-<img src="https://imgur.com/EcJRSy1.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/x5HpxTr.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Configure The Post Deployment Configuration To Create The Domain:  <br/>
-<img src="https://imgur.com/LIWXQrP.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+Allow Logs To Be Collected form VM TO Log Analytics Workspace : <br/>
+<img src="https://imgur.com/Vy5b8XQ.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Create An Organizational Unit:  <br/>
-<img src="https://imgur.com/WullmfJ.png" height="80%" width="80%" alt=Active Directory  Steps"/>
+<img src="https://imgur.com/s6YGSAO.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Create A User Account Within The Organizational Unit :  <br/>
-<img src="https://imgur.com/hCrmvPX.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/ziRu0c8.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Make The User Account A Domain Admin Account:  <br/>
-<img src="https://imgur.com/Eh45Exa.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+Connect Log Analytics Workspace To VM :  <br/>
+<img src="https://imgur.com/M24Pkwh.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Sign in Using the Domain Admin Account created In the Previos Step: <br/>
-<img src="https://imgur.com/3EDRcKL.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+ Setup Azure Sentinel:  <br/>
+<img src="https://imgur.com/cDf1rbS.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Install Routing and Remote Access: <br/>
-<img src="https://imgur.com/rXGVLmM.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/0uEZjl0.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-<img src="https://imgur.com/K3IDxTa.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Log into VM Using Remote Desktop:  <br/>
+<img src="https://imgur.com/2LD5y9l.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Install NAT To Allow Internal Users To Access The Internet Using One Address:  <br/>
-<img src="https://imgur.com/4lXMz1e.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/bfsUXGc.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Set Up DHCP Server On The Domain Controller:  <br/>
-<img src="https://imgur.com/IxDZv7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Turn Off Windows Firewall On VM:  <br/>
+<img src="https://imgur.com/LJwvM0x.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Configure Server Options For Router:  <br/>
-<img src="https://imgur.com/ZVoFSGS.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/4ekykGX.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Create A Scope:  <br/>
-<img src="https://imgur.com/TE63WZA.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/8xBEAxR.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Configure Lease Duration:  <br/>
-<img src="https://imgur.com/Tk3XWFI.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+ <img src="https://imgur.com/TXWz87M.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Configure DHCP Options:  <br/>
-<img src="https://imgur.com/whFqPX4.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+Write A Custom PowerShell Script To Get Attackers  The Geo Data :  <br/>
+<img src="https://imgur.com/tTrsSh1.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-<img src="https://imgur.com/MXF7ZDX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Obtain AN API KEY To get Geolocation Data:  <br/>
+<img src="https://imgur.com/ZlKSanr.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-<img src="https://imgur.com/6ZLAATX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run Script To Get Geo Data From Attackers: <br/>
+<img src="https://imgur.com/khnA2aP.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Activate The Scope:  <br/>
-<img src="https://imgur.com/mn6IOoR.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+Create custom log In Log Analytics Workspace To Bring In The custom log: <br/>
+<img src="https://imgur.com/zc8kuuY.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Write And Run A PowerShell script which will create 1000 users in AD: <br/>
-<img src="https://imgur.com/L4EJESt.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/nrU8jtZ.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-<img src="https://imgur.com/RcGGyFn.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/i6Nptgu.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Create A Windows 10 VM on Virtual Box: <br/>
-<img src="https://imgur.com/f2deR3N.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/ulDMCrk.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-<img src="https://imgur.com/3lGO2dG.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+ Add A New Workbook to Azure Sentinel and Add A Query by To Create Custom Fields and Extract The Fields From The custom Log Data:  <br/>
+<img src="https://imgur.com/QOscRyR.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Test Connectivity: <br/>
-<img src="https://imgur.com/sBVSMPb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/1GPEo19.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Rename the New VM and Join It To The Domain: <br/>
-<img src="https://imgur.com/8GHrUvY.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+Setup map in sentinel with Latitude and Longitude or Country:  <br/>
+<img src="https://imgur.com/htWXNTj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Allow Permision To Any Of The Users Created In AD To Join The Domain: <br/>
-<img src="https://imgur.com/QSgXLBd.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+Observe Attacks And The Attackers  Geolocation On The Map:  <br/>
+<img src="https://imgur.com/5x8iHGs.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Confirm VM Is Added to AD users and computers: <br/>
-<img src="https://imgur.com/gjmhoqD.png" height="80%" width="80%" alt="Active Directory  Steps"/>
+<img src="https://imgur.com/HhY9EL8.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-Log in Using any one of names created using the PowerShell Script.: <br/>
-<img src="https://imgur.com/xfdZB6G.png" height="80%" width="80%" alt"Active Directory  Steps"/>
+<img src="https://imgur.com/KauqyXA.png" height="80%" width="80%" alt="Honeypot Steps"/>
 <br />
 <br />
-<img src=" https://imgur.com/JpicaAX.png" height="80%" width="80%" alt="Active Directory  Steps"/>
-<br />
-<br />
+
 </p>
 <!--
  ```diff

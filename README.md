@@ -1,4 +1,4 @@
-<h1>Azure Sentinel</h1>
+<h1>Honeypot Lab</h1>
 
 
 <h2>Description</h2>

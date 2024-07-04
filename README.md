@@ -9,18 +9,21 @@ In this Lab, I setup Azure Sentinel (SIEM) and connected it to a live virtual ma
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Oracle Virtual Box</b>
+- <b>Azure </b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b>
-- <b>Server 2019</b> 
+- <b>Azure Virtual Machine </b>
+- <b>Azure Log Analytics Workspace </b>
+- <b>Azure API Management </b>
+- <b>Azure Sentinel (SIEM) </b>
+
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Download Oracle Virtual Box: <br/>
-<img src="https://imgur.com/ZssjaeV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Sign UP For Azure Subscription: <br/>
+<img src="https://imgur.com/cWjCLSA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Download windows 10 ISO: <br/>

@@ -1,8 +1,8 @@
-<h1>Honeypot Lab</h1>
+<h1>Honeypot Cloud Lab</h1>
 
 
 <h2>Description</h2>
-In this Lab, I setup Azure Sentinel (SIEM) and connected it to a live virtual machine acting as a honey pot. I observe live attacks (RDP Brute Force) from all around the world. I also used a custom PowerShell script to look up the Geolocation information of attackers and plot it on the Azure Sentinel Map.
+In this project, I setup Azure Sentinel (SIEM) and connected it to a live virtual machine acting as a honey pot. I observe live attacks (RDP Brute Force) from all around the world. I also used a custom PowerShell script to look up the Geolocation information of attackers and plot it on the Azure Sentinel Map.
 <br />
 
 

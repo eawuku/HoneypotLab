@@ -1,4 +1,4 @@
-<h1>Honeypot Cloud Lab</h1>
+<h1>Honeypot Cloud </h1>
 
 
 <h2>Description</h2>
